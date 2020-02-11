@@ -10,6 +10,7 @@ import Card from './Card';
 // MATCHING - the card is being shown and has a match.
 //            the card should never move from MATCHING to another state during
 //            game play.
+
 const CardState = {
   HIDING: 0,
   SHOWING: 1,
